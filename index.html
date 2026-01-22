@@ -97,9 +97,9 @@
                         <label><input type="checkbox"> Proyector/pantalla + presentación (5 diapositivas)</label>
                         <label><input type="checkbox"> Internet estable + Gnius Space con XOLO activo</label>
                         <label><input type="checkbox"> Computadora con acceso a internet (1 por estudiante)</label>
-                        <label><input type="checkbox"> Acceso a WebWave, JDoodle, GitHub y herramientas de IA (ChatGPT/Claude) (https://makecode.microbit.org/)</label>
+                        <label><input type="checkbox"> Acceso a WebWave, JDoodle, GitHub y herramientas de IA (ChatGPT/Claude/Gemini)</label>
                         <label><input type="checkbox"> Acceso a CodePen o JSFiddle para pruebas rápidas</label>
-                        <label><input type="checkbox"> ⚠️ Esta misión usa programación con CÓDIGO (HTML) asistida por IA</label>
+                        <label><input type="checkbox"> ⚠️ Esta misión usa generación de código HTML semántico asistida por IA</label>
                         <label><input type="checkbox"> 📋 Tip: En CodePen, pega tu código en la sección HTML para previsualizar al instante.</label>
                     </div>
                     <p class="care-reminder"><strong>🛡️ Cuidado del equipo:</strong> Mantener orden en las pestañas del navegador, guardar progresos en la nube y cerrar sesiones al terminar.</p>
@@ -128,7 +128,7 @@
                             <div class="timeline-content">
                                 <strong>Brain Spark</strong>
                                 <span class="time-badge">20 min</span>
-                                <p>Idear, construir y experimentar un programa con XOLO.</p>
+                                <p>Crear prompts específicos, generar HTML semántico y publicar en CodePen/JSFiddle.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -156,7 +156,7 @@
                             <li><strong>Si los alumnos no pueden ingresar a Gnius Space:</strong> Activa XOLO SOS en <a href="https://xolo.gnius.club" target="_blank">xolo.gnius.club</a> para continuar la misión sin interrumpir la clase.</li>
                             <li><strong>Si la IA genera código genérico (muchos divs):</strong> Pide a XOLO que te ayude a refinar el prompt exigiendo etiquetas semánticas como main, section o article.</li>
 <li><strong>Si el código no se visualiza en CodePen:</strong> Verifica que hayas copiado solo el HTML necesario y que no falten etiquetas de cierre.</li>
-<li><strong>Si hay errores en el código:</strong> Recordar a los estudiantes que XOLO puede ayudar a depurar. Pídeles que copien el error y se lo muestren a XOLO.</li>
+<li><strong>Si hay dudas sobre la calidad del código:</strong> Recordar a los estudiantes que XOLO puede ayudar a validar la estructura semántica. Pídeles que le muestren el código a XOLO.</li>
                         </ul>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
                         <h4>🤖 Rol de XOLO</h4>
                         <ul>
                             <li>XOLO ya está listo y conoce a cada estudiante.</li>
-                            <li>Sabe que hoy toca aprender sobre Semántica Web y Prompts de Alta Especificidad..</li>
+                            <li>Sabe que hoy toca aprender sobre Semántica Web y Prompts de Alta Especificidad.</li>
                         </ul>
                     </div>
                     <div class="role-card role-student">
@@ -278,9 +278,9 @@
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
                             <li>Proyecta la diapositiva 3.</li>
-                            <li>Indica: "Pidan a XOLO que los ayude a idear un proyecto. Cuando tengan su GCS, pásenlo a bloques en MakeCode, prueben en el simulador y luego con el hardware real".</li>
-                            <li>Entrega por parejas los herramientas de desarrollo web conforme los alumnos prueben su GCS en el simulador.</li>
-                            <li>Si hay errores, recuerda: "Pregúntenle a XOLO, él los ayuda a depurar".</li>
+                            <li>Indica: "Pidan a XOLO que los ayude a crear un prompt específico para su componente HTML. Cuando lo tengan, úsenlo en ChatGPT/Claude/Gemini para generar el código, validen la estructura semántica y publíquenlo en CodePen o JSFiddle".</li>
+                            <li>Circula para verificar que estén usando etiquetas semánticas correctamente.</li>
+                            <li>Si hay errores, recuerda: "Pregúntenle a XOLO, él los ayuda a validar y depurar".</li>
                         </ul>
                     </div>
                     <div class="role-card role-xolo">
@@ -288,17 +288,17 @@
                         <p class="xolo-status">✅ XOLO ACTIVO</p>
                         <ul>
                             <li>Ayuda a desarrollar una idea y un VIBE que aplique prompts de alta especificidad.</li>
-                            <li>Entrega el GCS de la idea del genio.</li>
-                            <li>Resuelve errores de sintaxis o lógica.</li>
+                            <li>Entrega el prompt optimizado y el checklist de semántica mínima.</li>
+                            <li>Resuelve dudas sobre estructura HTML y validación de código semántico.</li>
                         </ul>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
                             <li>Trabajar con XOLO una idea y un VIBE para usar prompts de alta especificidad y HTML semántico.</li>
-                            <li>Traducir el GCS de XOLO a bloques en MakeCode.</li>
-                            <li>Depurar su programa con XOLO si hay errores.</li>
-                            <li>Publicar su componente en CodePen o JSFiddle and probar.</li>
+                            <li>Recibir el prompt final optimizado de XOLO y el checklist de validación.</li>
+                            <li>Usar el prompt en ChatGPT/Claude/Gemini para generar código HTML semántico.</li>
+                            <li>Publicar su componente en CodePen o JSFiddle y validar la estructura.</li>
                         </ul>
                     </div>
                 </div>
@@ -307,9 +307,9 @@
                     <div class="slide-content">
                         <p><strong>1. 💬 Pide a XOLO que te ayude a crear:</strong></p>
                         <div class="prompt-box">
-                            <pre>"Ayúdame a redactar un prompt de alta especificidad para generar un componente HTML semántico alineado a mi app (por ejemplo: card, header, sección de features). Guíame a elegir etiquetas correctas y a pedir código claro. Ejecuta: entrega el prompt final + el checklist de “semántica mínima” para validar antes de pegarlo en mi Pen de CodePen/JSFiddle."</pre>
+                            <pre>"Ayúdame a redactar un prompt de alta especificidad para generar un componente HTML semántico alineado a mi app (por ejemplo: card, header, sección de features). Guíame a elegir etiquetas correctas y a pedir código claro. Ejecuta: entrega el prompt final + el checklist de "semántica mínima" para validar antes de pegarlo en mi Pen de CodePen/JSFiddle."</pre>
                         </div>
-                        <p style="margin-top: 1.5rem;"><strong>2. 🔬 Experimenta y descubre con tu programa:</strong></p>
+                        <p style="margin-top: 1.5rem;"><strong>2. 🔬 Experimenta y descubre con tu componente:</strong></p>
                         <ul>
                             <li>¿El código generado incluye las etiquetas semánticas que esperabas?</li>
                             <li>¿Qué pasa si le pides a la IA que el código sea accesible para lectores de pantalla?</li>
@@ -322,7 +322,7 @@
                 <div class="optional-script">
                     <button class="collapsible-button">📖 Ver guion detallado (opcional)</button>
                     <div class="collapsible-content">
-                        <p class="dialogue assistant">¡Es hora de crear componentes web como profesionales! Vamos a usar a XOLO para diseñar un prompt tan específico que la IA nos entregue código perfecto a la primera. El flujo es: idear el componente, definir el VIBE, obtener el prompt final, y llevarlo a CodePen o JSFiddle. Por ejemplo, podrían crear una sección de "Características" para una App de salud o un "Header" para un portafolio. No olviden pasar por el checklist de semántica mínima que XOLO les dará. Si tienen errores en el código o no se ve como quieren, pregúntenle a XOLO, él los ayudará a depurar y mejorar sus instrucciones.</p>
+                        <p class="dialogue assistant">¡Es hora de crear componentes web como profesionales! Vamos a usar a XOLO para diseñar un prompt tan específico que la IA nos entregue código perfecto a la primera. El flujo es: idear el componente con XOLO, definir el VIBE, obtener el prompt final optimizado, usarlo en ChatGPT/Claude/Gemini para generar el HTML, validar con el checklist de semántica, y publicarlo en CodePen o JSFiddle. Por ejemplo, podrían crear una sección de "Características" para una App de salud o un "Header" para un portafolio. No olviden pasar por el checklist de semántica mínima que XOLO les dará. Si tienen errores en el código o no se ve como quieren, pregúntenle a XOLO, él los ayudará a depurar y mejorar sus instrucciones.</p>
                     </div>
                 </div>
                 <div class="challenge-prompt">
@@ -362,9 +362,9 @@
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Demuestra su programa funcionando a otra pareja.</li>
+                            <li>Demuestra su componente HTML publicado a otra pareja.</li>
                             <li>Explica qué etiquetas semánticas utilizó y por qué.</li>
-                            <li>Comparte un descubrimiento interesante.</li>
+                            <li>Comparte un descubrimiento interesante sobre la especificidad del prompt.</li>
                             <li>Da retroalimentación positiva al compañero.</li>
                         </ul>
                     </div>
@@ -378,7 +378,7 @@
                         </div>
                         <div class="tps-phase">
                             <h4>👥 PAIR (2 min)</h4>
-                            <p>Con otra pareja: Demuestren su programa y expliquen su experiencia</p>
+                            <p>Con otra pareja: Demuestren su componente y expliquen su experiencia</p>
                             <p class="highlight-text">Frase guía: "Mi componente usa etiquetas como [etiqueta] para organizar el contenido. Me sorprendió que al ser más específico en el prompt, la IA [descubrimiento]."</p>
                         </div>
                         <div class="tps-phase">
@@ -417,8 +417,8 @@
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Tomar screenshot de su código en MakeCode.</li>
-                            <li>Tomar screenshot de su conversación con XOLO.</li>
+                            <li>Tomar screenshot de su componente HTML publicado en CodePen o JSFiddle.</li>
+                            <li>Tomar screenshot de su conversación con XOLO donde recibió el prompt optimizado.</li>
                             <li>Subir ambas evidencias a Gnius Space.</li>
                             <li>Dar click en "Finalizar Misión".</li>
                         </ul>
@@ -429,8 +429,8 @@
                     <div class="slide-content">
                         <p><strong>📸 Para terminar, sube tus evidencias a Gnius Space:</strong></p>
                         <ol>
-                            <li>Una captura de pantalla de tu programa final en <strong>MakeCode</strong>.</li>
-                            <li>Una captura de pantalla de tu conversación con <strong>XOLO</strong> donde te dio tu GCS.</li>
+                            <li>Una captura de pantalla de tu <strong>componente HTML publicado en CodePen o JSFiddle</strong> mostrando el código y la visualización.</li>
+                            <li>Una captura de pantalla de tu conversación con <strong>XOLO</strong> donde te entregó el prompt optimizado y el checklist de semántica.</li>
                         </ol>
                         <p class="highlight-text" style="margin-top: 1rem;">¡No olvides dar click en el botón <strong>"Finalizar Misión"</strong> cuando termines!</p>
                     </div>
@@ -440,4 +440,4 @@
     </div>
     <script src="script.js"></script>
 </body>
-</html></html>
+</html>
